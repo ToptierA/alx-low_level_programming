@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  *  Using Betty coding style
-*/
-/*
- * main - Main entry point
- * Description - if-else program
+ * main - entry to the program
  * Return (0): always - Success
  */
-int main(void);
+int main(void)
 {
 int n;
 srand(time(0));
