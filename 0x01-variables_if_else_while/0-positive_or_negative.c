@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* Using Betty coding style */
+/*
+ *  Using Betty coding style */
 /* main - Main entry point
  * Description - if-else program
  * Return (0): always - Success
