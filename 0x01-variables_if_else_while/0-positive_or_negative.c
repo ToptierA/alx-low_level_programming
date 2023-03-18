@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- *  Using Betty coding style */
-/* main - Main entry point
+ *  Using Betty coding style
+*/
+/*
+ * main - Main entry point
  * Description - if-else program
  * Return (0): always - Success
-  */
+ */
 int main(void)
 {
 int n;
@@ -19,6 +21,6 @@ else if (n == 0)
 	printf("%i is zero\n", n);
 else 
 	printf("%i is negative\n", n);
-return (0);
+return(0);
 }
 
