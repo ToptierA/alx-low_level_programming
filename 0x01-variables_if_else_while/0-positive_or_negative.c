@@ -3,8 +3,10 @@
 #include <time.h>
 /**
  *  Using Betty coding style
- * main - entry to the program
- * Return (0): always - Success
+ */
+ /**
+  * main - entry to the program
+ * Return: succees from main
  */
 int main(void)
 {
