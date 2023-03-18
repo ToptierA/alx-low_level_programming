@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* comment style for Betty*/
+
 /**
- *  Using Betty coding style
- */
- /**
-  * main - entry to the program
+ *  main - entry to the program
+ *  Description - if-else program.
  * Return: succees from main
  */
 int main(void)
