@@ -9,6 +9,8 @@
  *You are not allowed to use any variable of type `char`.
  *Return: 0
  */
+int main(void)
+{
  int x;
 
 for (x = 0; x < 10; x++)
@@ -18,6 +20,7 @@ if (x < 9)
 {
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
