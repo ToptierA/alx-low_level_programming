@@ -6,11 +6,12 @@
 int main(void)
 {
 	int a, b, c;
+
 	for (a = 48; a < 58; a++)
 	{
 		for (b = 48; b < 58; b++)
 		{
-			for (c = 49; c< 58; c++)
+			for (c = 49; c < 58; c++)
 			{
 				if (c > b && b > a)
 				{
