@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maint - prints all different combinations of three
+ * main - prints all different combinations of three
  * Return: always 0 success
  */
 int main(void)
