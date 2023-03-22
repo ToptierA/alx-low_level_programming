@@ -8,7 +8,7 @@ int main(void)
 {
 	char *sh = "Main";
 
-	while(*sh)
+	while (*sh)
 	{
 		_putchar(*sh);
 		sh++;
