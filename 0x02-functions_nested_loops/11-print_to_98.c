@@ -3,12 +3,13 @@
 #include <stdio.h>
 /**
  *print_to_98 - print form n to 98
- @n: the nbr of type integer
-Return: print of type integer
+*@n: number input
+*Return: print of type integer
 */
 void print_to_98(int n)
 {
 	int i;
+
 	if (n > 98)
 	{
 		for (i = n; i >= 98; i--)
@@ -19,7 +20,7 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-	}else
+	} else
 	{
 		for (i = n; i <= 98; i++)
 		{
