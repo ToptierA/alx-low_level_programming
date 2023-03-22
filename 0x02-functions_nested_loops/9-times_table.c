@@ -1,38 +1,35 @@
-include "main.h"
+#include "main.h"
 /**
- * time_table - times table function
- * Return: times table
+ * times_table - times table function
  */
 void times_table(void)
 {
-	int i;
-	int w;
-	int d;
+		int i;
+			int j;
 
-	for (i = 0; i <= 9; i++)
-	{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		for (w = 1; w <= 9; w++)
-		{
-			d = (i * w);
-			if ((d/10) > 0)
-			{
-				_putchar((d / 10)
-						}
-						else
+				for (i = 0; i <= 9; i++)
 						{
-						_putchar(' ');
-						}
-						_putchar((d % 10) + '0');
+									for (j = 0; j <= 9; j++)
+												{
+																int prod = j * i;
 
-						if (w < 9
-							{
-							_putchar(',');
-							_putchar(' ');
-							}
-							}
-							_putchar('\n');
-}
+																			if (j == 0)
+																							{
+																												_putchar('0');
+																															} else if (prod <= 9)
+																																			{
+																																								_putchar(',');
+																																												_putchar(' ');
+																																																_putchar(' ');
+																																																				_putchar(prod + '0');
+																																																							} else
+																																																											{
+																																																																_putchar(',');
+																																																																				_putchar(' ');
+																																																																								_putchar(prod / 10 + '0');
+																																																																												_putchar(prod % 10 + '0');
+																																																																															}
+																																																									}
+											_putchar('\n');
+												}
 }
