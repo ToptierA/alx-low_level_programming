@@ -16,13 +16,12 @@ void print_times_table(int n)
 			{
 				int prod = w * i;
 
-				if (w == 0) 
+				if (w == 0)
 				{
 					_putchar('0');
 				} else if (prod <= 9)
 				{
 					_putchar(',');
-					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
