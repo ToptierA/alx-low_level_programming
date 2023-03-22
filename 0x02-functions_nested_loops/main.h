@@ -1,3 +1,3 @@
-#ifnder TOPTIER_H
-#define TOPTIER_H
+#ifnder MAIN_H
+#define MAIN_H
 char _putchar(char c);

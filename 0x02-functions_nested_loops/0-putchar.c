@@ -1,4 +1,4 @@
-#include "toptier.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "Toptier";
+	char *sh = "Main";
 
 	while(*sh)
 	{
