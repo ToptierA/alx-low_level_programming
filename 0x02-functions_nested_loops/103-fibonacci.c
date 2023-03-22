@@ -20,6 +20,6 @@ int main(void)
 		b = c;
 		c = a + b;
 	}
-	printf("%d/n", counter);
+	printf("%d\n", counter);
 	return (0);
 }
