@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incluede "main.h"
+#include "main.h"
 
 /**
  * main -takes a date and prints how many day are left in the year, taking
