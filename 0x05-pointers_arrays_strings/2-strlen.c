@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strien - gets character string
+ * _strlen - gets character string
  *
  * @s: character to getstring
  * Return: returns length
