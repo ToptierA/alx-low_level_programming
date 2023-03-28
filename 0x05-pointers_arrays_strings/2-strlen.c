@@ -5,7 +5,7 @@
  * @s: character to getstring
  * Return: returns length
  */
-int _strien(char *s)
+int _strlen(char *s)
 {
 	int i;
 
