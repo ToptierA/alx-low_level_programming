@@ -1,15 +1,13 @@
 #include "main.h"
 
-/**_memset - function fills the
- * first @n: bytes of the memory area
- * pointed to by s with the constant byte c.
- * @s: the pointer who's first memory will be filled
- * @n: the byte to be filled to the first pointer
- * @b: the constant to fill the first address
- * Return: always the (s);
+/**_memset - sets memory to array
+ * @s: array to set
+ * @n: n amount of times
+ * @b: value to set it as
+ * Return: char value of s;
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 
 	unsigned int i;
@@ -18,10 +16,10 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	{
 
-		dest[i] = src[i];
+		s[i] = b;
 
 	}
 
-	return (dest);
+	return (s);
 
 }
