@@ -2,8 +2,8 @@
 
 /**_memset - sets memory to array
  * @s: array to set
- * @n: n amount of times
  * @b: value to set it as
+ * @n: n amount of times
  * Return: char value of s;
  */
 
