@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - adds arguments to a file
  * @argc: the commands that are passed in the terminal
  * @argv: the array of commands that are passed in the terminal
@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
 	printf("0\n");
 	return (0);
 }
+
 for (i = 1; i < argc; i++)
 {
 	for (g = 0; argv[i][g] != '\0'; g++)
@@ -27,7 +28,6 @@ for (i = 1; i < argc; i++)
 			return (1);
 		}
 }
-
 sum += atoi(argv[i]);
 }
 printf("%d\n", sum);
