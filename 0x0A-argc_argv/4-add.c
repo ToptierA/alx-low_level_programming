@@ -1,55 +1,35 @@
-#include <stdio.h> /*printf */
-#include <stdlib.h> /* atoi*/
-#include <stdbool.h> /*bool data type*/
+#include <stdio.h>
+#include <stdlib.h>
 
-/**
- * is_num - iterate through each argv to test if it's a number
- * @argvv: a argv
- * Return: true only if entire string is a number, false if not
+/*
+ * main - adds arguments to a file
+ * @argc: the commands that are passed in the terminal
+ * @argv: the array of commands that are passed in the terminal
+ * Return: always
  */
-bool is_num(char *argvv)
+int main(int argc, char *argv[])
 {
-	int j = 0;
+	int i, g, sum;
 
-	for (j = 0; argvv[j]; j++)
-	{
-		if (!(argvv[j] >= '0' && argvv[j] <= '9'))
-			return (0);
-	}
-	return (1);
+	sum = 0;
+	if (argc < 2)
+{
+	printf("0\n");
+	return (0);
 }
-
-/**
- * main - entry point
- * @argc: number of command -line arguments
- * @argv: array of actual arguments
- * Return: Always 0.
- */
-int main(int argc, char **argv[])
+for (i = 1; i < argc; i++)
 {
-	int i = 1;
-	int sum = 0;
-
-	/* validate input */
-	if (argc == 1)
+	for (g = 0; argv[i][g] != '\0'; g++)
 	{
-		printf("0\n");
-		return (0);
-	}
-
-	/*check all arguments to add numbers*/
-	while (i < argc)
-	{
-		if (is_num(argv[i]))
-			sum += atoi(argv[i]);
-		else
+		if (argv[i][g] < '0' || argv[i][g] > '9')
 		{
 			printf("Error\n");
 			return (1);
 		}
-		i++;
-	}
-	printf("%d\n", sum);
+}
 
-	return (0);
+sum += atoi(argv[i]);
+}
+printf("%d\n", sum);
+return (0);
 }
