@@ -49,7 +49,7 @@ char *argstostr(int ac, char **av)
 	}
 
 	/*insert each arg into *str */
-	for (i = 0, i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; j < _strlen(av[i]); j++)
 		{
