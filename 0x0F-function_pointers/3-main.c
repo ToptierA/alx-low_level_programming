@@ -7,7 +7,7 @@
  * @argv: array of args
  * Return: return something
  */
-int main(int argc, char *argv[i])
+int main(int argc, char *argv[])
 {
 	if (argc == 4)
 	{
