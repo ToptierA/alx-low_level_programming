@@ -4,7 +4,7 @@
 #include <stdarg.h>
 /**
  * print_strings - prints a string
- * @separator: seperator char
+ * @separator: separator char
  * @n: number of args
  */
 void print_strings(const char *separator, const unsigned int n, ...)
